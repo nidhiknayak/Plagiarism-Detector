@@ -3,12 +3,11 @@
 from difflib import SequenceMatcher 
 
 # Declaring string variables 
-string1 = 'I am geek'
-string2 = 'I am geeks'
+string1 = 'purple palace'
+string2 = 'purple place'
 
 # Using the SequenceMatcher() 
-match = SequenceMatcher(None, 
-						string1, string2) 
+match = SequenceMatcher(None, string1, string2) 
 
 # convert above output into ratio 
 # and multiplying it with 100 
